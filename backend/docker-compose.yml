@@ -19,9 +19,7 @@ services:
   postgres:
     image: postgres:15
     environment:
-      POSTGRES_USER: saas
-      POSTGRES_PASSWORD: saas123
-      POSTGRES_DB: saasdb
+      
     ports:
       - "5432:5432"
 
