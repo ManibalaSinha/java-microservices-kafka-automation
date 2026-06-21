@@ -28,9 +28,11 @@ services:
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/saasdb
-      SPRING_DATASOURCE_USERNAME: saas
-      SPRING_DATASOURCE_PASSWORD: saas123
+      SPRING_DATASOURCE_URL: 
+      
+
+
+
       KAFKA_BOOTSTRAP_SERVERS: kafka:9092
     depends_on:
       - kafka
